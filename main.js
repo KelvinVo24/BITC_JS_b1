@@ -83,7 +83,7 @@ var numbers = [50, 1, 6, 8];
 //Sắp sếp số từ bé đến lớn, nếu ngược lại thì b-a
 console.log("Bài 4:")
 console.log(numbers.sort(function(a,b){
-    return a-b;
+    return b-a;
 }));
 
 
