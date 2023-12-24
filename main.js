@@ -102,14 +102,14 @@ console.log(arrayMultiple);
 // Bài tập 6 Viết một hàm nhận một mảng làm đầu vào và trả về một mảng mới chỉ có số lẻ.
 
 var arrayBai6 = [1, 2, 3, 4, 5, 6, 7];
-let arrayOdd = arrayBai6.filter(arrayBai6 => arrayBai6 % 2);
+let arrayOdd = arrayBai6.filter(arrayBai6 => arrayBai6 % 2 !== 0);
 console.log("Bài 6: ")
 console.log(arrayOdd);
 
 //Cách 2: xài push
 let odd = [];
 for (var i = 0; i < arrayBai6.length; i++){
-    if(arrayBai6[i] % 2){
+    if(arrayBai6[i] % 2 !== 0){
         odd.push(arrayBai6[i]);
     }
 }
